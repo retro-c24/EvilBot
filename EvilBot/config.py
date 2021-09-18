@@ -73,5 +73,11 @@ class Production(Config):
 
 
 class Development(Config):
+    HEROKU_API_KEY = None
+    HEROKU_APP_NAME = None
+    TEMP_DOWNLOAD_DIRECTORY = None
+    OPENWEATHERMAP_ID = None
+    VIRUS_API_KEY = None
+    MONGO_DB_URI = None
     ALLOW_CHATS = True
     LOGGER = True
