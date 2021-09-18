@@ -73,4 +73,5 @@ class Production(Config):
 
 
 class Development(Config):
+    ALLOW_CHATS = True
     LOGGER = True
