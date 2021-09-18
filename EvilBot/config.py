@@ -16,10 +16,10 @@ class Config(object):
 
     API_ID = 123456  # integer value, dont use ""
     API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "1785860253:AAEqDMB-uBDSaxGAebqyXOVsl2vu4CECXtw"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1742353529  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "shrvan42"
-    SUPPORT_CHAT = "EVIL_SUPPORT_CHAT"  # Your own group for support, do not add the @
+    OWNER_USERNAME = "Cyph33r"
+    SUPPORT_CHAT = "none"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001236063876
     )  # Prints any new group the bot is added to, prints just the name and ID.

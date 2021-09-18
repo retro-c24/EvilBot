@@ -69,7 +69,7 @@ RUN git clone -b shiken https://github.com/shrvan42/EvilBot /root/EvilBot
 WORKDIR /root/EvilBot
 
 #Copy config file to /root/EvilBott/EvilBot
-COPY ./EvilBot/sample_config.py ./EvilBot/config.py* /root/EvilBot/EvilBot/
+COPY EvilBot/config.py ./EvilBot/config.py* /root/EvilBot/EvilBot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
